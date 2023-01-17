@@ -15,7 +15,7 @@
 
         private static void printAll(Object o, int i, Integer ii) {   // В момент вызова метода создается новый фрейм в стеке
             Integer uselessVar = 700;                  // 5. объявляем ссылочный тип и присваиваем 700, занимает место в стеке со ссылкой на объект в куче
-            System.out.println(o.toString() + i + ii); // 6. выводим в консоль, создаются фреймы println и ссылка на toString в стеке + все переменные, но o и                                                          //    ii,toString  имеют ссылку на объекты в куче
+            System.out.println(o.toString() + i + ii); // 6. выводим в консоль, создаются фреймы println и ссылка на toString в стеке + все переменные,  o и                                                          //    ii,toString  имеют ссылку на объекты в куче
         }
     }
     
